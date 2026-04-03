@@ -389,23 +389,28 @@ export default function MovieDetailPage() {
 
             {/* Buttons */}
             <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
-              <button
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: "8px",
-                  background: "#fff",
-                  color: "#111",
-                  border: "none",
-                  borderRadius: "8px",
-                  padding: "11px 22px",
-                  fontSize: "14px",
-                  fontWeight: 700,
-                  cursor: "pointer",
-                }}
+              <a
+                href="https://www.youtube.com/watch?v=8dnJpuWuGn8"
+                target="_blank"
               >
-                <FaPlay size={11} /> Watch Now
-              </button>
+                <button
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "8px",
+                    background: "#fff",
+                    color: "#111",
+                    border: "none",
+                    borderRadius: "8px",
+                    padding: "11px 22px",
+                    fontSize: "14px",
+                    fontWeight: 700,
+                    cursor: "pointer",
+                  }}
+                >
+                  <FaPlay size={11} /> Watch Now
+                </button>
+              </a>
               <button
                 style={{
                   display: "flex",
