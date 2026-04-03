@@ -218,7 +218,7 @@ export default function HomeContent() {
               target="_blank"
             >
               <button className="bg-white px-3 py-1 rounded-md mb-3 text-black/80  shadow-2xl shadow-pink-300">
-                &#9658; Watch
+                &#9658; Watch Now
               </button>
             </a>
           </div>
