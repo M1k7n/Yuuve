@@ -1,6 +1,5 @@
 @import "tailwindcss";
-
-:root {
+root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -17,6 +16,14 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE & Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 body {
